@@ -1,0 +1,238 @@
+{
+  "dataset_total_records": 1000,
+  "train_samples_count": 804,
+  "test_samples_count": 196,
+  "test_accuracy": 1.0,
+  "test_accuracy_pct": "100.0%",
+  "macro_avg_f1": 1.0,
+  "weighted_avg_f1": 1.0,
+  "departments_evaluated": [
+    "EDU",
+    "ELEC",
+    "HEALTH",
+    "MC",
+    "PWD",
+    "TRANS",
+    "WATER"
+  ],
+  "per_department_metrics": {
+    "EDU": {
+      "department_name": "Directorate of School Education",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 29
+    },
+    "ELEC": {
+      "department_name": "State Electricity Distribution",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 28
+    },
+    "HEALTH": {
+      "department_name": "Public Health Services",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 28
+    },
+    "MC": {
+      "department_name": "Municipal Corporation",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 29
+    },
+    "PWD": {
+      "department_name": "Public Works Department",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 24
+    },
+    "TRANS": {
+      "department_name": "Metropolitan Transport Authority",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 29
+    },
+    "WATER": {
+      "department_name": "Water Supply & Sewerage Board",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_samples": 29
+    }
+  },
+  "confusion_matrix": {
+    "classes": [
+      "EDU",
+      "ELEC",
+      "HEALTH",
+      "MC",
+      "PWD",
+      "TRANS",
+      "WATER"
+    ],
+    "matrix": [
+      [
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29
+      ]
+    ]
+  },
+  "top_keywords_per_department": {
+    "EDU": {
+      "department_name": "Directorate of School Education",
+      "top_features": [
+        "school",
+        "vidyalaya",
+        "secondary",
+        "senior secondary",
+        "senior",
+        "secondary school",
+        "government",
+        "students"
+      ]
+    },
+    "ELEC": {
+      "department_name": "State Electricity Distribution",
+      "top_features": [
+        "electricity",
+        "voltage",
+        "transformer",
+        "power",
+        "live",
+        "pole",
+        "units",
+        "cable"
+      ]
+    },
+    "HEALTH": {
+      "department_name": "Public Health Services",
+      "top_features": [
+        "hospital",
+        "patients",
+        "anti",
+        "dispensary",
+        "working",
+        "locked",
+        "working hours",
+        "health"
+      ]
+    },
+    "MC": {
+      "department_name": "Municipal Corporation",
+      "top_features": [
+        "plastic",
+        "animal",
+        "shopkeepers",
+        "illegally",
+        "choking",
+        "sanitation",
+        "community",
+        "waste"
+      ]
+    },
+    "PWD": {
+      "department_name": "Public Works Department",
+      "top_features": [
+        "road",
+        "pedestrian",
+        "concrete",
+        "heavy",
+        "asphalt",
+        "underpass",
+        "overbridge",
+        "falling"
+      ]
+    },
+    "TRANS": {
+      "department_name": "Metropolitan Transport Authority",
+      "top_features": [
+        "bus",
+        "route",
+        "transit",
+        "station",
+        "passenger",
+        "commuters",
+        "fare",
+        "frequency"
+      ]
+    },
+    "WATER": {
+      "department_name": "Water Supply & Sewerage Board",
+      "top_features": [
+        "water",
+        "sewage",
+        "tap water",
+        "tap",
+        "underground",
+        "sewer",
+        "main",
+        "water supply"
+      ]
+    }
+  }
+}
